@@ -50,7 +50,8 @@ if st.button('Carregar modelo e fazer previsão'):
     moeda = df_pais['currency_code'].iloc[0]
 
     df['registro_projecao'] = 0
-    df['date'] = pd.to_datetime(df['date']) 
+    df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
+    #df['date'] = pd.to_datetime(df['date']) 
 
     #criação do novo registro referente a projeção para ser empilhado na base principal
     novo_registro = {'name': pais, 'date': data, 'registro_projecao': 1, 'currency_code' : moeda}
