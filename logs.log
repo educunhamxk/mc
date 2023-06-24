@@ -1,0 +1,511 @@
+2023-06-24 18:45:10,327:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-24 18:45:10,327:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-24 18:45:10,327:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-24 18:45:10,327:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-24 18:45:13,234:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-24 18:52:59,181:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:53: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  
+
+2023-06-24 19:09:27,512:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  
+
+2023-06-24 19:09:27,516:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:52: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  #convertendo 'date' para datetime
+
+2023-06-24 19:10:08,815:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:10:08,819:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:52: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(new_data, ignore_index=True)
+
+2023-06-24 19:11:25,714:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:11:25,717:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:52: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(new_data, ignore_index=True)
+
+2023-06-24 19:11:45,651:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:11:45,655:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:52: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(new_data, ignore_index=True)
+
+2023-06-24 19:13:07,739:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:13:07,744:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:53: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.fillna(0)
+
+2023-06-24 19:13:49,489:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:13:49,493:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:53: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(new_data, ignore_index=True)
+
+2023-06-24 19:14:20,341:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:14:20,355:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  
+
+2023-06-24 19:15:37,061:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:15:37,073:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(new_data, ignore_index=True)
+
+2023-06-24 19:16:44,771:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:16:44,775:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:17:07,878:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:17:57,460:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:17:57,465:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  #df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:20:28,467:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:20:28,472:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:21:44,953:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:21:44,955:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:21:45,038:INFO:Initializing load_model()
+2023-06-24 19:21:45,038:INFO:load_model(model_name=model.pkl, platform=None, authentication=None, verbose=True)
+2023-06-24 19:22:01,072:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:22:01,075:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:22:01,118:INFO:Initializing load_model()
+2023-06-24 19:22:01,118:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:22:24,478:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:22:24,479:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:22:24,528:INFO:Initializing load_model()
+2023-06-24 19:22:24,528:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:22:24,552:INFO:Initializing predict_model()
+2023-06-24 19:22:24,552:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000258C7D82760>, estimator=RandomForestRegressor(max_features=6, n_estimators=30, random_state=42), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258CB15CCA0>)
+2023-06-24 19:22:24,552:INFO:Checking exceptions
+2023-06-24 19:22:24,552:INFO:Preloading libraries
+2023-06-24 19:24:11,486:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:24:11,505:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:24:11,534:INFO:Initializing load_model()
+2023-06-24 19:24:11,534:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:26:40,585:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:26:40,590:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:26:40,639:INFO:Initializing load_model()
+2023-06-24 19:26:40,639:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:27:39,056:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:27:39,066:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:27:39,129:INFO:Initializing load_model()
+2023-06-24 19:27:39,129:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:28:32,640:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:28:32,650:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:28:32,696:INFO:Initializing load_model()
+2023-06-24 19:28:32,696:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:29:17,781:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:50: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:29:17,796:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:55: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:29:17,827:INFO:Initializing load_model()
+2023-06-24 19:29:17,827:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:35:15,872:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  
+
+2023-06-24 19:35:15,875:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.fillna(0)
+
+2023-06-24 19:35:15,909:INFO:Initializing load_model()
+2023-06-24 19:35:15,909:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:35:15,930:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  
+
+2023-06-24 19:35:46,041:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:35:46,044:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:35:46,091:INFO:Initializing load_model()
+2023-06-24 19:35:46,091:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:35:46,117:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro)
+
+2023-06-24 19:35:46,121:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:36:36,007:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:36:36,010:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:36:36,045:INFO:Initializing load_model()
+2023-06-24 19:36:36,045:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:36:36,072:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:36:36,076:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:37:16,891:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:37:16,894:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:37:16,943:INFO:Initializing load_model()
+2023-06-24 19:37:16,943:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:37:16,966:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:37:16,971:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:37:33,327:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:37:33,333:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:37:33,375:INFO:Initializing load_model()
+2023-06-24 19:37:33,376:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:37:33,400:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:37:33,403:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:38:07,883:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:38:07,894:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:38:07,939:INFO:Initializing load_model()
+2023-06-24 19:38:07,939:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:38:07,964:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:38:07,968:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:38:07,969:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = df_pais_full['date'].apply(lambda x: x.to_pydatetime())
+
+2023-06-24 19:38:24,822:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:38:24,835:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:38:24,875:INFO:Initializing load_model()
+2023-06-24 19:38:24,875:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:38:24,899:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:38:24,904:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:38:24,905:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:38:24,936:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:106: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-24 19:38:35,617:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:38:35,619:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:38:35,665:INFO:Initializing load_model()
+2023-06-24 19:38:35,665:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:38:35,695:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:38:35,698:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:38:35,699:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:38:35,727:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:106: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-24 19:39:47,286:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:39:47,305:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:39:47,341:INFO:Initializing load_model()
+2023-06-24 19:39:47,341:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:39:47,362:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:39:47,366:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:39:47,367:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:39:47,398:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:106: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-24 19:41:17,635:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:41:17,638:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:41:17,667:INFO:Initializing load_model()
+2023-06-24 19:41:17,667:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:41:17,688:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:41:17,691:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:41:17,693:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:41:17,723:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:107: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  
+
+2023-06-24 19:42:23,649:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:42:23,655:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:42:23,711:INFO:Initializing load_model()
+2023-06-24 19:42:23,711:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:42:23,746:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:42:23,751:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:42:23,753:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:42:23,796:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:107: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  
+
+2023-06-24 19:43:16,206:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:43:16,210:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:43:16,254:INFO:Initializing load_model()
+2023-06-24 19:43:16,255:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:43:16,284:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:43:16,287:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:43:16,288:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:43:16,365:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:106: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-24 19:44:26,734:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:44:26,738:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:44:26,772:INFO:Initializing load_model()
+2023-06-24 19:44:26,772:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:44:26,798:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:44:26,802:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:44:26,803:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:44:26,832:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:107: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  
+
+2023-06-24 19:45:13,896:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:45:13,900:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:45:13,935:INFO:Initializing load_model()
+2023-06-24 19:45:13,936:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:45:13,960:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:45:13,963:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:45:13,964:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:46:00,865:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:46:00,872:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:46:00,903:INFO:Initializing load_model()
+2023-06-24 19:46:00,903:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:46:00,929:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:46:00,932:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:46:00,934:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:46:00,964:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:107: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  
+
+2023-06-24 19:47:53,928:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:51: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:47:53,935:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:56: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:47:53,967:INFO:Initializing load_model()
+2023-06-24 19:47:53,967:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:47:53,994:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:47:53,997:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:47:53,998:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:95: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:47:54,027:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:107: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  
+
+2023-06-24 19:54:14,665:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:52: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:54:14,669:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:57: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:54:14,713:INFO:Initializing load_model()
+2023-06-24 19:54:14,713:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:54:14,735:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:90: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:54:14,739:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:93: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:54:14,740:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:96: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:54:14,769:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:108: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-24 19:55:18,761:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:52: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 19:55:18,765:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:57: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 19:55:18,790:INFO:Initializing load_model()
+2023-06-24 19:55:18,791:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 19:55:18,821:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:90: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 19:55:18,827:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:93: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 19:55:18,830:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:96: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 19:55:18,863:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:108: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-24 20:01:35,006:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:52: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 20:01:35,007:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:57: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 20:01:35,034:INFO:Initializing load_model()
+2023-06-24 20:01:35,034:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 20:01:35,067:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:90: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 20:01:35,070:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:93: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 20:01:35,071:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:96: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 20:01:35,097:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:108: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-24 20:02:12,626:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:52: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df['date'] = pd.to_datetime(df['date'])
+
+2023-06-24 20:02:12,629:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:57: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append(novo_registro, ignore_index=True)
+
+2023-06-24 20:02:12,657:INFO:Initializing load_model()
+2023-06-24 20:02:12,657:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-24 20:02:12,681:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:90: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+
+2023-06-24 20:02:12,684:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:93: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  df_pais_full['projecao'] = df_pais_full['date'] == data
+
+2023-06-24 20:02:12,685:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:96: UserWarning: Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+  df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+
+2023-06-24 20:02:12,720:WARNING:C:\Users\eduar\AutoML\ProjetoMcdonalds\app.py:108: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
