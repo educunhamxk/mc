@@ -56,7 +56,7 @@ if st.button('Carregar modelo e fazer previsão'):
     #criação do novo registro referente a projeção para ser empilhado na base principal
     novo_registro = {'name': pais, 'date': data, 'registro_projecao': 1, 'currency_code' : moeda}
     novo_registro['date'] = pd.to_datetime(novo_registro['date'], format='%d/%m/%Y')
-    df = pd.concat([df, novo_registro], ignore_index=True)
+    df = pd.concat([df, novo_registro])
 
     #preenchendo com 0s nas colunas que não são referentes ao país e nem a moeda do país
     df = df.fillna(0)
