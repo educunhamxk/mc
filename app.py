@@ -102,7 +102,7 @@ if st.button('Carregar modelo e fazer previsão'):
     df_pais_full['projecao'] = df_pais_full['date'] == data
 
     #plotar o gráfico de linha
-    df_pais_full['date'] = pd.to_datetime(df_pais_full['date'])
+    df_pais_full['date'] = pd.to_datetime(df_pais_full['date'], format='%d/%m/%Y'))
     df_pais_full['date'] = df_pais_full['date'].apply(lambda x: x.to_pydatetime())
     
     #plotando a série histórica
