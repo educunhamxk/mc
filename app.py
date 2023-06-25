@@ -104,18 +104,12 @@ if st.button('Carregar modelo e fazer previsão'):
     df_pais_full['date'] = pd.to_datetime(df_pais_full['date'], format='%d/%m/%Y')
     df_pais_full['date'] = df_pais_full['date'].apply(lambda x: x.to_pydatetime())
     
-    # Plotar a série histórica
+    #plotando a série histórica
+    plt.plot(df_pais_full[df_pais_full['projecao']]['date'], df_pais_full[df_pais_full['projecao']]['dollar_price'], color='red', marker='o')
     plt.plot(df_pais_full['date'], df_pais_full['dollar_price'], color='blue', linestyle='solid', marker='')
 
-    # Plotar a projeção com traçado tracejado
-    plt.plot(df_pais_full[df_pais_full['projecao']]['date'], df_pais_full[df_pais_full['projecao']]['dollar_price'],
-            color='red', linestyle='dashed', marker='o')
-
-    # Adicionar o ponto de projeção com uma cor diferente
-    df_pais_full = df_pais_full.reset_index(drop=True)
-    projecao = df_pais_full[df_pais_full['projecao']].iloc[0]  # Obter o ponto de projeção
-    plt.annotate('Projeção', xy=(projecao['date'], projecao['dollar_price']), xytext=(5, 5),
-                textcoords='offset points', color='red')
+    #adicionando o ponto de projeção com uma cor diferente
+    
 
     plt.title('Projeção do Preço do BigMac')
     plt.xlabel('Data')
