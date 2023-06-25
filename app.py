@@ -84,7 +84,7 @@ if st.button('Carregar modelo e fazer previsão'):
     X_test_scaled = scaler.transform(df)
 
     #carregamento / instanciamento do modelo pkl
-    model = joblib.load('model')
+    model = joblib.load('model.pkl')
 
     #usando o modelo para fazer previsões
     projecao = model.predict(X_test_scaled)
