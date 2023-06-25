@@ -105,10 +105,11 @@ if st.button('Carregar modelo e fazer previsão'):
     df_pais_full['date'] = df_pais_full['date'].apply(lambda x: x.to_pydatetime())
     
     #plotando a série histórica
+    plt.plot(df_pais_full[df_pais_full['projecao']]['date'], df_pais_full[df_pais_full['projecao']]['dollar_price'], color='red', marker='o')
     plt.plot(df_pais_full['date'], df_pais_full['dollar_price'], color='blue', linestyle='solid', marker='')
 
     #adicionando o ponto de projeção com uma cor diferente
-    plt.plot(df_pais_full[df_pais_full['projecao']]['date'], df_pais_full[df_pais_full['projecao']]['dollar_price'], color='red', marker='o')
+    
 
     plt.title('Projeção do Preço do BigMac')
     plt.xlabel('Data')
