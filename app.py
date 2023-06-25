@@ -55,6 +55,8 @@ if st.button('Carregar modelo e fazer previsão'):
 
     #criação do novo registro referente a projeção para ser empilhado na base principal
     novo_registro = {'name': pais, 'date': data, 'registro_projecao': 1, 'currency_code' : moeda}
+    st.markdown(novo_registro.info())
+    st.markdown(df.info())
     novo_registro['date'] = pd.to_datetime(novo_registro['date'], format='%d/%m/%Y')
     df = pd.concat([df, novo_registro])
 
