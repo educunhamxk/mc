@@ -46,7 +46,6 @@ if st.button('Carregar modelo e fazer previsão'):
     
     #caputando a moeda do país escolhido
     df_pais= df[df['name'] == pais]
-    st.markdown(df_pais.shape)
     moeda = df_pais['currency_code'].iloc[0]
 
     df['registro_projecao'] = 0
