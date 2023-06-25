@@ -96,7 +96,7 @@ if st.button('Carregar modelo e fazer previsão'):
 
     df_pais = df_original[df_original['name'] == pais]
     #empilhar os dados de projeção no df original
-    df_pais_full = df_pais.append(novo_registro,ignore_index=True)
+    df_pais_full = pd.concat([df_pais, novo_registro])
 
     #criar uma nova coluna para marcar o ponto de projeção
     df_pais_full['projecao'] = df_pais_full['date'] == data
