@@ -112,6 +112,7 @@ if st.button('Carregar modelo e fazer previsão'):
             color='red', linestyle='dashed', marker='o')
 
     # Adicionar o ponto de projeção com uma cor diferente
+    df_pais_full = df_pais_full.reset_index(drop=True)
     projecao = df_pais_full[df_pais_full['projecao']].iloc[0]  # Obter o ponto de projeção
     plt.annotate('Projeção', xy=(projecao['date'], projecao['dollar_price']), xytext=(5, 5),
                 textcoords='offset points', color='red')
